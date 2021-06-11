@@ -3,7 +3,7 @@
 [[package]]
 name = "algonaut"
 version = "0.2.0"
-source = "git+https://github.com/manuelmauro/algonaut/?branch=support-wasm#b3895004092d7d20da401b55c156ed4445f14539"
+source = "git+https://github.com/manuelmauro/algonaut?branch=main#b8d19c6ebc917a357b7645102fb916392914b4b1"
 dependencies = [
  "algonaut_client",
  "algonaut_core",
@@ -15,7 +15,7 @@ dependencies = [
 [[package]]
 name = "algonaut_client"
 version = "0.2.0"
-source = "git+https://github.com/manuelmauro/algonaut/?branch=support-wasm#b3895004092d7d20da401b55c156ed4445f14539"
+source = "git+https://github.com/manuelmauro/algonaut?branch=main#b8d19c6ebc917a357b7645102fb916392914b4b1"
 dependencies = [
  "algonaut_core",
  "algonaut_crypto",
@@ -35,7 +35,7 @@ dependencies = [
 [[package]]
 name = "algonaut_core"
 version = "0.2.0"
-source = "git+https://github.com/manuelmauro/algonaut/?branch=support-wasm#b3895004092d7d20da401b55c156ed4445f14539"
+source = "git+https://github.com/manuelmauro/algonaut?branch=main#b8d19c6ebc917a357b7645102fb916392914b4b1"
 dependencies = [
  "algonaut_crypto",
  "algonaut_encoding",
@@ -50,7 +50,7 @@ dependencies = [
 [[package]]
 name = "algonaut_crypto"
 version = "0.2.0"
-source = "git+https://github.com/manuelmauro/algonaut/?branch=support-wasm#b3895004092d7d20da401b55c156ed4445f14539"
+source = "git+https://github.com/manuelmauro/algonaut?branch=main#b8d19c6ebc917a357b7645102fb916392914b4b1"
 dependencies = [
  "algonaut_encoding",
  "data-encoding",
@@ -66,7 +66,7 @@ dependencies = [
 [[package]]
 name = "algonaut_encoding"
 version = "0.2.0"
-source = "git+https://github.com/manuelmauro/algonaut/?branch=support-wasm#b3895004092d7d20da401b55c156ed4445f14539"
+source = "git+https://github.com/manuelmauro/algonaut?branch=main#b8d19c6ebc917a357b7645102fb916392914b4b1"
 dependencies = [
  "data-encoding",
  "serde",
@@ -75,7 +75,7 @@ dependencies = [
 [[package]]
 name = "algonaut_transaction"
 version = "0.2.0"
-source = "git+https://github.com/manuelmauro/algonaut/?branch=support-wasm#b3895004092d7d20da401b55c156ed4445f14539"
+source = "git+https://github.com/manuelmauro/algonaut?branch=main#b8d19c6ebc917a357b7645102fb916392914b4b1"
 dependencies = [
  "algonaut_core",
  "algonaut_crypto",

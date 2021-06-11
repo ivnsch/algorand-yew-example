@@ -8,6 +8,6 @@ edition = "2018"
 
 [dependencies]
 yew = "0.18"
-algonaut = { git = "https://github.com/manuelmauro/algonaut", branch = "support-wasm" }
+algonaut = { git = "https://github.com/manuelmauro/algonaut", branch = "main" }
 yewtil = "0.4"
 anyhow = "1.0"
