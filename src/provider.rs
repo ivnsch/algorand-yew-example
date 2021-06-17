@@ -1,8 +1,8 @@
-use algonaut::{client::algod::v2::Client, core::Address};
+use algonaut::{algod::v2::Algod, core::Address};
 use anyhow::Result;
 
 pub struct Provider {
-    client: Client,
+    algod: Algod,
 }
 
 pub struct AccountViewData {
@@ -14,15 +14,12 @@ pub struct AccountViewData {
 }
 
 impl Provider {
-    pub fn new(client: Client) -> Provider {
-        Provider { client }
+    pub fn new(algod: Algod) -> Provider {
+        Provider { algod }
     }
 
     pub async fn get_infos(&self, address: &Address) -> Result<AccountViewData> {
-        let account = self
-            .client
-            .account_information(&address.to_string())
-            .await?;
+        let account = self.algod.account_information(&address).await?;
 
         Ok(AccountViewData {
             address: account.address.to_string(),
