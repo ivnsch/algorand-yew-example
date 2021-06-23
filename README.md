@@ -1,4 +1,6 @@
 # Algorand Yew integration example
+![Continuous integration](https://github.com/i-schuetz/algorand-yew-example/actions/workflows/actions.yml/badge.svg)
+
 Minimal example for using the [Rust Algorand SDK](https://github.com/manuelmauro/algonaut) in a [Yew](https://github.com/yewstack/yew) app.
 
 ![ScreenShot](img/img.png)

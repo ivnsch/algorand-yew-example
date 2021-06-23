@@ -50,7 +50,7 @@ impl Component for Model {
                             Err(err) => Msg::ShowError(format!("{}", err)),
                         }
                     }),
-                    Err(e) => self.link.send_message(Msg::ShowError(format!("{}", e))),
+                    Err(e) => self.link.send_message(Msg::ShowError(e)),
                 }
                 false
             }
