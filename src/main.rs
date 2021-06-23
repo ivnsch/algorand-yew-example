@@ -27,7 +27,7 @@ impl Component for Model {
     type Properties = ();
 
     fn create(_props: Self::Properties, link: ComponentLink<Self>) -> Self {
-        let algod = dependencies::algod().expect("Couldn't initialize algod");
+        let algod = dependencies::algod();
         let provider = dependencies::provider(algod);
         Self {
             link,
