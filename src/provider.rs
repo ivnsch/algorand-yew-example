@@ -19,7 +19,7 @@ impl Provider {
     }
 
     pub async fn get_infos(&self, address: &Address) -> Result<AccountViewData> {
-        let account = self.algod.account_information(&address).await?;
+        let account = self.algod.account_information(address).await?;
 
         Ok(AccountViewData {
             address: account.address.to_string(),
